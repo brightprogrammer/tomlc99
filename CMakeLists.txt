@@ -18,6 +18,6 @@ install(TARGETS tomlc99
 install(FILES toml.h DESTINATION include)
 
 # Install the .pc file
-install(FILES ${PROJECT_SOURCE_DIR}/libtoml.pc.sample
-    DESTINATION lib/pkgconfig/libtoml.pc
+install(FILES ${PROJECT_SOURCE_DIR}/libtoml.pc
+    DESTINATION lib/pkgconfig
 )
