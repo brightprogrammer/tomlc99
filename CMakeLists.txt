@@ -19,5 +19,5 @@ install(FILES toml.h DESTINATION include)
 
 # Install the .pc file
 install(FILES ${PROJECT_SOURCE_DIR}/libtoml.pc
-    DESTINATION lib/pkgconfig
+    DESTINATION lib/pkgconfig/
 )
